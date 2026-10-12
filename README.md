@@ -11,6 +11,8 @@ Set `MONGO_URI` and `MONGO_DB` in the environment (or in an uncommitted local `.
 ```bash
 uvicorn app.main:app --port 8000
 ```
+- Health check: [http://localhost:8000/health](http://localhost:8000/health)
+- Interactive API documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 Run the rule tests with `python -m unittest discover -s tests -v`.
 
