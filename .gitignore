@@ -1,4 +1,14 @@
 .env
+.env.*
 .venv/
+venv/
+env/
+Dockerfile
+secrets/
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
 __pycache__/
-*.pyc
+*.py[cod]
